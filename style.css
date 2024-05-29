@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+body {
+    background-color: whitesmoke;
+}
+.topbar {
+    position: sticky;
+    display: flex;
+    justify-content: space-between;
+    padding: 18px;
+    padding-left: 30px;
+    padding-right: 30px;
+    background-color: cyan;
+    border-bottom-style: double;
+    box-shadow: 3px 3px 5px gray;
+    flex-wrap: wrap;
+}
+.topbarItems {
+
+    text-decoration: none;
+    color: inherit;
+    font-size: 21px;
+    flex-direction: row;
+    margin-right: 12px;
+    margin-left: 12px;
+    
+}
+.topbarItems:hover {
+    
+    text-decoration: underline;
+    text-decoration: none;
+    color: #2e2c2c;
+    font-size: 24px;
+    flex-direction: row;
+    margin-right: 12px;
+    margin-left: 12px;
+    text-decoration: underline;
+}
+.topbarMiddle {
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+}
+.topbarright {
+    display: flex;
+}
+#searchbox {
+    width: 380px;
+    height: 22px;
+    margin-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+
+}
+#searchbox:hover {
+    width: 382px;
+    height: 24px;
+    margin-right: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 14px;
+}
+
+#mybtn {
+    width: 60px;
+    height: 25px;
+    font-size: 14px;
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    
+}
+#mybtn:hover {
+    width: 62px;
+    height: 25px;
+    font-size: 17px;
+    background-color: white;
+   
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px;
+}
+#mybtn:active {
+    width: 63px;
+    height: 26px;
+    font-size: 16px;
+    background-color: white;
+    padding-top: 1px;
+    border-radius: 2px;
+    box-shadow: 3px 3px 5px;
+}
+
+.main {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+#blog1 {
+    margin-top: 30px;
+    background-color: azure;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-style:groove;
+    border-radius: 12px;
+    height: 300px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#blog1:hover {
+    box-shadow: 6px 7px 5px gray;
+    background-color: #e8e8e8;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    border-style:groove;
+    border-radius: 0px;
+    height: 307px;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+#blogImage {
+    width: 98%;
+    height: 58%;
+}
+#Readmorelink {
+    font-size: 16px;
+    color: black;
+    text-decoration: none;
+}
+#Readmorelink:hover {
+    font-size: 18px;
+    color: black;
+    text-decoration: underline;
+    font-style: italic;
+}
+.footer {
+    position: sticky;
+    padding: 20px;
+    background-color: #a7a9ab;
+    margin-top: 350px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-size: 22px;
+  
+}
+#footer1 {
+    text-decoration: none;
+    color: black;
+}
+#footer1:hover {
+    text-decoration: underline;
+    color: black;
+    font-size: 24px;
+}
